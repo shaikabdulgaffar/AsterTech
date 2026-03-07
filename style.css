@@ -1623,29 +1623,9 @@ section[id] {
 
 .footer-bottom-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.footer-badges {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.security-badge,
-.uptime-badge {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #94a3b8;
-    font-size: 0.9rem;
-}
-
-.security-badge i,
-.uptime-badge i {
-    color: var(--secondary-color);
 }
 
 /* WhatsApp Floating Button */
